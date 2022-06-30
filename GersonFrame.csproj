@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A35AF528-3D28-FB5F-28A4-72E1157FA497}</ProjectGuid>
+    <ProjectGuid>{9F6C46CA-4D67-7C7E-B064-47D161A48BDF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>GersonFrame</AssemblyName>
@@ -56,209 +56,209 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\BooleanSerializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Extensible.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\SurrogateSerializer.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Meta\TypeFormatEventArgs.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\NumberFormatTool.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\StringSerializer.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Interface\NoDestoryMonoSingleton.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\CodedOutputStream.ComputeSize.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\StateMachine\BaseState.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\CodedInputStream.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\SurrogateSerializer.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\LitJson\JsonMapper.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\HotUpdate\Server\DownLoadItem.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ServiceModel\ProtoBehaviorExtensionElement.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\CodedInputStream.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\LitJson\IJsonWrapper.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\MathTool.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\BlobSerializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\HotUpdate\Server\DownAssetBundle.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\PrefixStyle.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\InvalidProtocolBufferException.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\MyDebuger_ILRunTimeBinding.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\LitJson\JsonMockWrapper.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Audio\AudioManager.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ProtoIgnoreAttribute.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\PropertyDecorator.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Meta\BasicList.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Manager\BaseMgr.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ProtoWriter.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ProtoConverterAttribute.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\OffLineData\EffectOffLineData.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\LitJson\JsonReader.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\Rule\ICanGetModel.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\FingerHanlder.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\Rule\ICanSendMsg.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\IModel.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\HotUpdate\MD5Manager.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ServiceModel\ProtoBehaviorAttribute.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\TypeSerializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\Int32Serializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\Collections\RepeatedField.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\IExtension.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\GlobalSuppressions.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Meta\MetaType.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\Assets\ABConfig.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\NetObjectCache.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\CharSerializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\MessageParser.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\UInt16Serializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\ScrollViewEx.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Meta\TypeModel.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\LimitedInputStream.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\CodedOutputStream.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\DateTimeSerializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\ByteString.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\LitJson\JsonException.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\SerializationContext.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\ObjectManager.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\Rule\ICanGetSystem.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\CallbackAttributes.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\WireType.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\BindableProperty.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Meta\SubType.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Meta\ValueMember.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\MyDebuger.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\HotUpdate\Server\HotPatchManager.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\WireFormat.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\ProtoPreconditions.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\SubItemSerializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\SimpleObjectPool.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\BezierTool\tool\BeZierLine.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\NetObjectSerializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\AES.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Interface\DictionaryExtension.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\SubItemToken.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\SimpleObjPool.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\ICustomDiagnosticMessage.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\SByteSerializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\ColliderCallBackTool.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\MouseTrack.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\NullDecorator.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Compiler\CompilerDelegates.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Meta\CallbackSet.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\MessageExtensions.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\Int16Serializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\StateMachine\EnemyMoveStateCtrl.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\EnumSerializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\Compatibility\StreamExtensions.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\LitJson\JsonWriter.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\ShakeEffect.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\BufferPool.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Interface\Singleton.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\HotUpdate\ABMD5.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\IProtoTypeSerializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Helpers.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\LitJson\JsonData.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\LitJson\ParserToken.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Audio\AudioItem.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Msg\MsgType.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ExtensibleUtil.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ServiceModel\ProtoOperationBehavior.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\ArrayDecorator.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\ClassObjectPool.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\IMessage.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Compiler\Local.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\DataFormat.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\TimeInvoke.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\Rule\ICanGetUtility.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\StateMachine\AmStateTransitionAssets.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\IController.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\ListDecorator.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\FieldCodec.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\BclHelpers.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\Architecture.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\Int64Serializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\SingleSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\BclHelpers.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Tool\PlayerPrefsTool.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\ISerializerProxy.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\MemberSpecifiedDecorator.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\IBelongToArchitecture.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\ISystem.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Tool\PathTool.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\LitJson\Lexer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\IOC\IOCContainer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\GuidSerializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Interface\MonoBehaviourSimplify.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ProtoIncludeAttribute.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\DoubleSerializer.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Tool\ScalAmTool.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\DoubleSerializer.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Compiler\CompilerContext.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\RecyclcCompent.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Msg\InternalMsgAdapter.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\HotUpdate\Server\ServerInfo.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\KeyValuePairProxy.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Interface\MyCoroutine.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\TagDecorator.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\IUtility.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ServiceModel\ProtoEndpointBehavior.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ServiceModel\XmlProtoSerializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\UInt64Serializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Interface\TransformExtensiion.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Audio\SystemFunctionConfigAudioConfig.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\KeyValuePairDecorator.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\RotateAm.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\ICanSetArchitecture.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\ByteArray.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\ResourceManager.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\FieldDecorator.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\UriDecorator.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\BezierTool\data\BezierData.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\ABManager.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\Rule\ICanSendCommand.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Audio\SystemFunctionConfigAudioConfig.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\OffLineData\UIOffLineData.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ProtoException.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\TimeSpanSerializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\LitJson\Netstandard15Polyfill.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\StateMachine\BaseEnemyMoveState.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Properties\AssemblyInfo.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\OffLineData\OffLineData.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\BufferExtension.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\FPSCounter.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Tool\XML\ExcelBase.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Tool\XML\BinarySerializeOpt.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Tool\DrawHalfCycle.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\UInt32Serializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\XML\ConfigerManager.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\AssetBundleConfig.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\StateMachine\IStateController.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\ByteSerializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\ICommand.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ProtoEnumAttribute.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Meta\RuntimeTypeModel.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Tool\ButtonAmTool.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\Compatibility\PropertyInfoExtensions.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\IExtensible.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\IProtoSerializer.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Tool\StringBuilderTool.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\IProtoSerializer.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Meta\AttributeMap.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\BezierTool\tool\BezierMath.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\TupleSerializer.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\FingerTool.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ImplicitFields.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\ProtoDecoratorBase.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\DecimalSerializer.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\Assets\ABFrameConfig.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\ImmutableCollectionDecorator.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Msg\BaseInternalMsg.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\SystemTypeSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\ScrollView.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\ParseableSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Msg\MsgDespactcher.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\CompiledSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\BooleanSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Extensible.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\StringSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\CodedOutputStream.ComputeSize.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ServiceModel\ProtoBehaviorExtensionElement.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ServiceModel\ProtoBehaviorAttribute.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Manager\BaseMgr.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\FingerHanlder.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\HotUpdate\MD5Manager.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\TypeSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\GlobalSuppressions.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\NetObjectCache.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\CharSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\ByteString.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\MyDebuger.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\SubItemSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\ProtoPreconditions.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\AES.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\SubItemToken.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\SimpleObjPool.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\MouseTrack.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\MessageExtensions.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\Compatibility\StreamExtensions.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\ShakeEffect.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\LitJson\JsonData.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Helpers.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ServiceModel\ProtoOperationBehavior.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\IController.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\Architecture.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\SingleSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\ISerializerProxy.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Interface\MonoBehaviourSimplify.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ServiceModel\ProtoEndpointBehavior.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\BezierTool\data\BezierData.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\OffLineData\OffLineData.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\XML\ConfigerManager.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Meta\RuntimeTypeModel.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\BezierTool\tool\BezierMath.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ProtoMemberAttribute.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\BezierTool\tool\BezierNodeObject.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\ScrollView.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\Rule\ICanRegisterMsg.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\TestArchitecture\TestArchitecure.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Tool\ClassTool.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ProtoReader.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\CRC32.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\ParseableSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Interface\MonoSingleton.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\StateMachine\BaseState.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\MyDebuger_ILRunTimeBinding.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\PropertyDecorator.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Meta\BasicList.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\OffLineData\EffectOffLineData.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\Rule\ICanGetModel.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\LitJson\JsonReader.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\ScrollViewEx.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\LimitedInputStream.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\DateTimeSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\LitJson\JsonException.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\HotUpdate\Server\HotPatchManager.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\SimpleObjectPool.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Interface\DictionaryExtension.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\SByteSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\NullDecorator.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Meta\CallbackSet.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\StateMachine\EnemyMoveStateCtrl.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\EnumSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Interface\Singleton.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\IProtoTypeSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Msg\MsgType.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ExtensibleUtil.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\ArrayDecorator.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Compiler\Local.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\TimeInvoke.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\MemberSpecifiedDecorator.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\IBelongToArchitecture.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\LitJson\Lexer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\IOC\IOCContainer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\RecyclcCompent.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Msg\InternalMsgAdapter.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\HotUpdate\Server\ServerInfo.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\IUtility.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\UInt64Serializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\RotateAm.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\FieldDecorator.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\ABManager.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ProtoException.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\TimeSpanSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\StateMachine\IStateController.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\ByteSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\ICommand.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\AssetBundleConfig.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\IExtensible.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\FingerTool.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\ProtoDecoratorBase.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Msg\BaseInternalMsg.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\TestArchitecture\TestArchitecure.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ProtoContractAttribute.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Interface\GameObjectExtension.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\NumberFormatTool.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\MathTool.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\BlobSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\HotUpdate\Server\DownAssetBundle.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\InvalidProtocolBufferException.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ProtoIgnoreAttribute.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ProtoWriter.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ProtoConverterAttribute.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\Rule\ICanSendMsg.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\IModel.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\Int32Serializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\Collections\RepeatedField.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\IExtension.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Meta\MetaType.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\MessageParser.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\UInt16Serializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\CodedOutputStream.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\Rule\ICanGetSystem.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Meta\ValueMember.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\WireFormat.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\ColliderCallBackTool.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\ICustomDiagnosticMessage.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Compiler\CompilerDelegates.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\LitJson\JsonWriter.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\LitJson\ParserToken.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\ClassObjectPool.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\IMessage.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\DataFormat.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\Rule\ICanGetUtility.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\ListDecorator.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\FieldCodec.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\ISystem.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\GuidSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\KeyValuePairProxy.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Interface\MyCoroutine.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ServiceModel\XmlProtoSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Interface\TransformExtensiion.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\ABScripts\AB\ResourceManager.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\UriDecorator.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\Rule\ICanSendCommand.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\LitJson\Netstandard15Polyfill.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Tool\FPSCounter.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\UInt32Serializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ProtoEnumAttribute.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\Google.Protobuf\Compatibility\PropertyInfoExtensions.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\ImplicitFields.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\DecimalSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\ImmutableCollectionDecorator.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\SystemTypeSerializer.cs" />
+    <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\Rule\ICanRegisterMsg.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Architecture\TestArchitecture\TestUitility.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Interface\MonoSingleton.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Msg\MsgDespactcher.cs" />
     <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\DefaultValueDecorator.cs" />
-    <Compile Include="Assets\GersonFrame\FrameScripts\Third\protobuf-net\Serializers\CompiledSerializer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GersonFrame\FrameScripts\GersonFrame.asmdef" />
@@ -505,6 +505,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>Assets\GersonFrame\Editor\Proto\EPPlus.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -514,23 +517,26 @@
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="ILRuntime.Mono.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.ourpalm.ilruntime@2.0.2\Plugins\ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
-    </Reference>
-    <Reference Include="ILRuntime.Mono.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.ourpalm.ilruntime@2.0.2\Plugins\ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="ILRuntime.Mono.Cecil">
-      <HintPath>Library\PackageCache\com.ourpalm.ilruntime@2.0.2\Plugins\ILRuntime.Mono.Cecil.dll</HintPath>
+    <Reference Include="BehaviorDesigner.Runtime">
+      <HintPath>Assets\GersonFrame\Third\Behavior Designer\Runtime\BehaviorDesigner.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
       <HintPath>Assets\GersonFrame\Third\DOTween\Editor\DOTweenEditor.dll</HintPath>
     </Reference>
-    <Reference Include="EPPlus">
-      <HintPath>Assets\GersonFrame\Editor\Proto\EPPlus.dll</HintPath>
+    <Reference Include="BehaviorDesigner.Editor">
+      <HintPath>Assets\GersonFrame\Third\Behavior Designer\Editor\BehaviorDesigner.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="ILRuntime.Mono.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.ourpalm.ilruntime@2.0.2\Plugins\ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="ILRuntime.Mono.Cecil">
+      <HintPath>Library\PackageCache\com.ourpalm.ilruntime@2.0.2\Plugins\ILRuntime.Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="ILRuntime.Mono.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.ourpalm.ilruntime@2.0.2\Plugins\ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets\GersonFrame\Third\DOTween\DOTween.dll</HintPath>
@@ -889,11 +895,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{8E7D9EBA-9E69-E172-AE87-01D9D373B729}</Project>
+      <Project>{FB229E06-21E4-9A47-6ECA-C56364973A90}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{E92D3567-F94F-B458-B7CF-40ACA02A2CC7}</Project>
+      <Project>{878DD7CE-D170-2D2B-F5C3-9FC771BD179C}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

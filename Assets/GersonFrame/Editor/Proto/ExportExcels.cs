@@ -226,9 +226,7 @@ public class Excel2ProtoViewTool : BaseEditor
         {
             GUILayout.BeginHorizontal();
             if (GUILayout.Button("刷新", GUILayout.Width(70), GUILayout.Height(50)))
-            {
                 ResetConfig();
-            }
             GUILayout.EndHorizontal();
         }
     }
@@ -374,7 +372,8 @@ public class Excel2ProtoViewTool : BaseEditor
                     Excel2ProtoTool.ExportExcelConfig();
                 Excel2ProtoTool.WriteExcelMd5Info();
                 UnityEngine.Debug.Log("===========.bytes文件生成 完毕 生成路径 " + ProtogenEditor.OutAllByteFloder + " ===============");
-                ProtogenEditor.AllProto2CS();
+                if (!IsAddModel)//不是增量模式才需要重新导出CS文件
+                    ProtogenEditor.AllProto2CS();
                 m_canClick = true;
             }
         }

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{85119FF7-4A48-07FB-A01E-FD85417878D6}</ProjectGuid>
+    <ProjectGuid>{310F0D64-E63C-B330-8D87-FC5D35050575}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -56,90 +56,90 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GersonFrame\Editor\LinkEditor\LinkXmlGenerator.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\BRT_WindowLabels.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\FuzzyStringComparisonTolerance.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\BRT_WindowUtility.cs" />
     <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\ReportGeneration\BRT_UnityBuildSettingsUtility.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Utility\DldUtil_BackwardFileReader.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\JaroWinklerDistance.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\Operations.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\HammingDistance.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\Screen\BRT_OverviewScreen.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Utility\DldUtil_UnityVersion.cs" />
     <Compile Include="Assets\GersonFrame\ILRuntime\Editor\AddMonoScriptsEditor.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\ReportGeneration\BRT_ReportGenerator_PublicAPI.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Utility\BRT_Util.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\Screen\BRT_AssetListScreen.cs" />
     <Compile Include="Assets\GersonFrame\Editor\Proto\ProtogenEditor.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\LevenshteinDistance.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\ReportGeneration\BRT_ReportGenerator.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Utility\DldUtil_BigFileReader.cs" />
+    <Compile Include="Assets\GersonFrame\Third\Behavior Designer\Editor\Object Drawers\IntSliderDrawer.cs" />
     <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\Screen\BRT_BuildSettingsScreen.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\TanimotoCoefficient.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\Screen\BRT_OptionsScreen.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\ApproximatelyEquals.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\BRT_BuildReportWindow.cs" />
-    <Compile Include="Assets\GersonFrame\Editor\MeshCombine.cs" />
+    <Compile Include="Assets\GersonFrame\Third\Behavior Designer\Editor\BehaviorTreeInspector.cs" />
     <Compile Include="Assets\GersonFrame\Editor\Proto\SysUtil.cs" />
     <Compile Include="Assets\GersonFrame\Editor\HotUpdate\BundleHotFixWindow.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\Screen\BRT_AssetListScreen_Search.cs" />
-    <Compile Include="Assets\GersonFrame\ILRuntime\Editor\ILRuntimeEditor.cs" />
-    <Compile Include="Assets\GersonFrame\Editor\SkinMeshCombineWindow.cs" />
-    <Compile Include="Assets\GersonFrame\Editor\Proto\BaseEditor.cs" />
-    <Compile Include="Assets\GersonFrame\Editor\EditorTool.cs" />
     <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Options\BRT_FiltersUsed.cs" />
     <Compile Include="Assets\GersonFrame\Third\I18N\Editor\I18NTextInspector.cs" />
-    <Compile Include="Assets\GersonFrame\Editor\ScrollViewEditor.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\BRT_VersionInfo.cs" />
     <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\SorensenDiceDistance.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\Screen\BRT_BaseScreen.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\ReportData\BRT_BuildSettingsCategoryType.cs" />
     <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\ReportData\BRT_SizePart.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\OverlapCoefficient.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\LongestCommonSubstring.cs" />
-    <Compile Include="Assets\GersonFrame\Editor\OfflineDataEditor.cs" />
-    <Compile Include="Assets\GersonFrame\Editor\Proto\ProtoTool\descriptor.cs" />
-    <Compile Include="Assets\GersonFrame\Editor\BundleEditor.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\LongestCommonSubsequence.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Options\BRT_FileFilters.cs" />
-    <Compile Include="Assets\GersonFrame\Editor\CMDEditor.cs" />
     <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Utility\DldUtil_TraverseDirectory.cs" />
-    <Compile Include="Assets\GersonFrame\Editor\EditorCoroutineRunner.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\ReportData\BRT_UnityBuildSettings.cs" />
     <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\ReportData\BRT_AssetDependencies.cs" />
-    <Compile Include="Assets\GersonFrame\Editor\Proto\ExportExcels.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\ReportData\BRT_UnityBuildSettings.cs" />
+    <Compile Include="Assets\GersonFrame\Third\Behavior Designer\Editor\Object Drawers\StackedActionDrawer.cs" />
     <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\Screen\BRT_AssetListScreen_AssetUsage.cs" />
-    <Compile Include="Assets\GersonFrame\Editor\BuildApk.cs" />
     <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\Screen\BRT_AssetListScreen_Delete.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Options\BRT_Options.cs" />
     <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\ReportData\BRT_BuildInfo_Commands.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Utility\BRT_LibCacheUtil.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\ReportGeneration\BRT_AssetDependencyGenerator.cs" />
+    <Compile Include="Assets\GersonFrame\Third\Behavior Designer\Editor\ExternalBehaviorTreeInspector.cs" />
     <Compile Include="Assets\GersonFrame\Editor\HotUpdate\WindowsFile.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\RatcliffObershelpSimilarity.cs" />
     <Compile Include="Assets\GersonFrame\Editor\ScrollViewExEditor.cs" />
     <Compile Include="Assets\GersonFrame\Editor\UI\ViewElementEditor.cs" />
     <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\BRT_WindowSettings.cs" />
     <Compile Include="Assets\GersonFrame\Editor\UnityGuidGenerator.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\ReportData\BRT_AssetList.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\FuzzyStringComparisonOptions.cs" />
     <Compile Include="Assets\GersonFrame\Editor\Proto\ConfigProto\ConfigProto.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\ReportData\BRT_BuildPlatformType.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\BRT_WindowUtility.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\Operations.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\Screen\BRT_AssetListScreen.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\LevenshteinDistance.cs" />
+    <Compile Include="Assets\GersonFrame\Editor\MeshCombine.cs" />
+    <Compile Include="Assets\GersonFrame\ILRuntime\Editor\ILRuntimeEditor.cs" />
+    <Compile Include="Assets\GersonFrame\Editor\ScrollViewEditor.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\Screen\BRT_BaseScreen.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\ReportData\BRT_BuildSettingsCategoryType.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\OverlapCoefficient.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\LongestCommonSubsequence.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Options\BRT_Options.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Utility\BRT_LibCacheUtil.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\RatcliffObershelpSimilarity.cs" />
     <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\ReportData\BRT_BuildInfo.cs" />
     <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Utility\DldUtil_GetRspDefines.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\JaroDistance.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\ReportData\BRT_BuildPlatformType.cs" />
-    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\Screen\BRT_HelpScreen.cs" />
-    <Compile Include="Assets\GersonFrame\Editor\Proto\ProtoTool\InputFileLoader.cs" />
     <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\JaccardDistance.cs" />
     <Compile Include="Assets\GersonFrame\Editor\Proto\ProtoTool\ProtoGenAuto.cs" />
     <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\Screen\BRT_SizeStatsScreen.cs" />
-    <Compile Include="Assets\GersonFrame\Third\Behavior Designer\Editor\Object Drawers\IntSliderDrawer.cs" />
-    <Compile Include="Assets\GersonFrame\Third\Behavior Designer\Editor\BehaviorTreeInspector.cs" />
-    <Compile Include="Assets\GersonFrame\Third\Behavior Designer\Editor\Object Drawers\StackedActionDrawer.cs" />
-    <Compile Include="Assets\GersonFrame\Third\Behavior Designer\Editor\Object Drawers\StackedConditionalDrawer.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\FuzzyStringComparisonTolerance.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Utility\DldUtil_BackwardFileReader.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\Screen\BRT_OverviewScreen.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\ReportGeneration\BRT_ReportGenerator_PublicAPI.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Utility\DldUtil_BigFileReader.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\ReportGeneration\BRT_ReportGenerator.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\ApproximatelyEquals.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\Screen\BRT_AssetListScreen_Search.cs" />
+    <Compile Include="Assets\GersonFrame\Editor\SkinMeshCombineWindow.cs" />
+    <Compile Include="Assets\GersonFrame\Editor\EditorTool.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\BRT_VersionInfo.cs" />
+    <Compile Include="Assets\GersonFrame\Editor\Proto\ProtoTool\descriptor.cs" />
+    <Compile Include="Assets\GersonFrame\Editor\BundleEditor.cs" />
+    <Compile Include="Assets\GersonFrame\Editor\Proto\ExportExcels.cs" />
     <Compile Include="Assets\GersonFrame\Third\Behavior Designer\Editor\Object Drawers\FloatSliderDrawer.cs" />
-    <Compile Include="Assets\GersonFrame\Third\Behavior Designer\Editor\ExternalBehaviorTreeInspector.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\ReportGeneration\BRT_AssetDependencyGenerator.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\FuzzyStringComparisonOptions.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\JaroDistance.cs" />
+    <Compile Include="Assets\GersonFrame\Editor\LinkEditor\LinkXmlGenerator.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\BRT_WindowLabels.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\HammingDistance.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\JaroWinklerDistance.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Utility\DldUtil_UnityVersion.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Utility\BRT_Util.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\TanimotoCoefficient.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\Screen\BRT_OptionsScreen.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\BRT_BuildReportWindow.cs" />
+    <Compile Include="Assets\GersonFrame\Editor\Proto\BaseEditor.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\FuzzyString\LongestCommonSubstring.cs" />
+    <Compile Include="Assets\GersonFrame\Editor\OfflineDataEditor.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Options\BRT_FileFilters.cs" />
+    <Compile Include="Assets\GersonFrame\Editor\CMDEditor.cs" />
+    <Compile Include="Assets\GersonFrame\Editor\EditorCoroutineRunner.cs" />
+    <Compile Include="Assets\GersonFrame\Editor\BuildApk.cs" />
+    <Compile Include="Assets\GersonFrame\Third\Behavior Designer\Editor\Object Drawers\StackedConditionalDrawer.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\ReportData\BRT_AssetList.cs" />
+    <Compile Include="Assets\GersonFrame\Third\BuildReport\Scripts\Editor\Window\Screen\BRT_HelpScreen.cs" />
+    <Compile Include="Assets\GersonFrame\Editor\Proto\ProtoTool\InputFileLoader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GersonFrame\Third\DOTween\Editor\DOTweenEditor.XML" />
@@ -391,6 +391,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>Assets\GersonFrame\Editor\Proto\EPPlus.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -400,32 +403,29 @@
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="ILRuntime.Mono.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.ourpalm.ilruntime@2.0.2\Plugins\ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
-    </Reference>
-    <Reference Include="ILRuntime.Mono.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.ourpalm.ilruntime@2.0.2\Plugins\ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="ILRuntime.Mono.Cecil">
-      <HintPath>Library\PackageCache\com.ourpalm.ilruntime@2.0.2\Plugins\ILRuntime.Mono.Cecil.dll</HintPath>
+    <Reference Include="BehaviorDesigner.Runtime">
+      <HintPath>Assets\GersonFrame\Third\Behavior Designer\Runtime\BehaviorDesigner.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
       <HintPath>Assets\GersonFrame\Third\DOTween\Editor\DOTweenEditor.dll</HintPath>
     </Reference>
-    <Reference Include="EPPlus">
-      <HintPath>Assets\GersonFrame\Editor\Proto\EPPlus.dll</HintPath>
+    <Reference Include="BehaviorDesigner.Editor">
+      <HintPath>Assets\GersonFrame\Third\Behavior Designer\Editor\BehaviorDesigner.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="ILRuntime.Mono.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.ourpalm.ilruntime@2.0.2\Plugins\ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="ILRuntime.Mono.Cecil">
+      <HintPath>Library\PackageCache\com.ourpalm.ilruntime@2.0.2\Plugins\ILRuntime.Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="ILRuntime.Mono.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.ourpalm.ilruntime@2.0.2\Plugins\ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets\GersonFrame\Third\DOTween\DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="BehaviorDesigner.Runtime">
-      <HintPath>Assets\GersonFrame\Third\Behavior Designer\Runtime\BehaviorDesigner.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="BehaviorDesigner.Editor">
-      <HintPath>Assets\GersonFrame\Third\Behavior Designer\Editor\BehaviorDesigner.Editor.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -784,6 +784,9 @@
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.AssetBundleBrowser.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AssetBundleBrowser.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -802,35 +805,32 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="ILRuntime">
+      <HintPath>Library\ScriptAssemblies\ILRuntime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.AssetBundleBrowser.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.AssetBundleBrowser.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="ILRuntime">
-      <HintPath>Library\ScriptAssemblies\ILRuntime.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{E3BA5974-1158-DD28-25C6-6D169F5F6035}</Project>
+      <Project>{B19D47A8-58C3-9B8C-A47E-36E074F43786}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="GersonFrame.csproj">
+      <Project>{9F6C46CA-4D67-7C7E-B064-47D161A48BDF}</Project>
+      <Name>GersonFrame</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{8E7D9EBA-9E69-E172-AE87-01D9D373B729}</Project>
+      <Project>{FB229E06-21E4-9A47-6ECA-C56364973A90}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{E92D3567-F94F-B458-B7CF-40ACA02A2CC7}</Project>
+      <Project>{878DD7CE-D170-2D2B-F5C3-9FC771BD179C}</Project>
       <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="GersonFrame.csproj">
-      <Project>{A35AF528-3D28-FB5F-28A4-72E1157FA497}</Project>
-      <Name>GersonFrame</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
