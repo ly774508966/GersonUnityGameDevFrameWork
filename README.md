@@ -12,6 +12,8 @@ GersonFrame目录放在 Assets目录下
 
 
 3.热更工程为
+![image](https://user-images.githubusercontent.com/26451915/176593509-006fe611-f1a7-44d5-901f-135c4191dab7.png)
+
 
 
 
@@ -19,5 +21,7 @@ GersonFrame目录放在 Assets目录下
 
 
 4.打开热更项目工程 右键重新生成 生成dll路径到Assets\ILRuntime\HotFixDll 目录中
+![image](https://user-images.githubusercontent.com/26451915/176593528-bf3df66b-7922-4eba-8077-bbeba4b77d4a.png)
+
 
 
